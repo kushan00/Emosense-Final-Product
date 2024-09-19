@@ -1,0 +1,17 @@
+import React from 'react';
+
+const ChatBotOverlay = ({ onClose }) => {
+  return (
+    <div className="overlay">
+      <div className="overlay-container">
+        <button className="close-button" onClick={onClose}>
+          Close
+        </button>
+        {/* Add overlay content here */}
+        <p>This is the chatbot overlay content.</p>
+      </div>
+    </div>
+  );
+};
+
+export default ChatBotOverlay;

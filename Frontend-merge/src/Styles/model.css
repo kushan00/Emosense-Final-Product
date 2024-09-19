@@ -1,0 +1,225 @@
+/* Add this CSS to your main stylesheet or a separate CSS file */
+.modal-overlay {
+   display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 130px;
+}
+
+.modal {
+    /* background: rgb(180, 161, 191); */
+    background-image: url('../images/sea2.gif');
+    /* Replace with the actual path to your image */
+    background-size: cover;
+    /* You can use 'cover' or 'contain' depending on your image and design */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Center the background image */
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    border-color: black;
+    width: 75%;
+    height: 94%;
+    font-size: 12px;
+    color: #000000;
+    border: 2px solid #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(211, 204, 204, 0.2);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add a container for the grid layout */
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create a 2x2 grid */
+    gap: 10px;
+    /* Spacing between grid items */
+    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create a 2x2 grid */
+    gap: 10px;
+    /* Spacing between grid items */
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Apply styles for the highlight boxes within grid-container3 */
+.highlight-box3 {
+    background-color: #fff9fd;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 89%;
+    height: 118%;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+   
+
+
+}
+
+/* Apply styles for the highlight boxes within grid-container4 */
+.highlight-box4 {
+    background-color: #fff9fd;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 210%;
+    height: 127%;
+    font-size: 16px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+    margin-left: -22px;
+
+
+
+}
+
+/* Additional styling for text inside the highlight boxes */
+
+.highlight-box4 p {
+    margin: 0;
+}
+
+/* Additional styling for headings inside the highlight boxes */
+
+.highlight-box4 h3 {
+    font-weight: bold;
+}
+
+/* Define grid containers for grid-container1 and grid-container2 */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+/* Styling for the highlight boxes within grid-container1 */
+.highlight-box1 {
+    background-color: #d6d2e8;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 180%;
+    height: 91%;
+    margin-top: 18%;
+    font-size: 24px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+   
+
+
+}
+
+/* Styling for the highlight boxes within grid-container2 */
+.highlight-box2 {
+    background-color: #d6d2e8;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 210%;
+    height: 91%;
+    margin-top: 18%;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+    margin-left: -26px
+    
+
+}
+
+.paragraph {
+
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    text-align: center;
+    /* Center-align the text within the div */
+
+}
+
+
+.paragraph-1 {
+
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    text-align: center;
+    font-size: 10px;
+    /* Center-align the text within the div */
+
+}
+
+.paragraph-2 {
+
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    /* Center-align the text within the div */
+
+}
+
+.paragraph-3 {
+
+    color: #fff9fd;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    /* Center-align the text within the div */
+
+}
+
+.benefitssssss{
+    color: #000000;
+    font-size: 14px;
+}
+
+.message-box {
+    border: 2px solid #ede4e4; /* Border style, size, and color */
+    text-shadow: 2px 2px 4px rgba(172, 33, 33, 0.5);
+    color: #000000;
+    padding: 10px; /* Padding inside the box */
+    background-color: #d6d2e8;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 15px;
+    font-size: 26px;
+  }

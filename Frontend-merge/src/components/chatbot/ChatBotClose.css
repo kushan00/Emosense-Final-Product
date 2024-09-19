@@ -1,0 +1,25 @@
+/* ChatbotIcon.css */
+.chatbot-close-container {
+    position: fixed;
+    bottom: 5px;
+    right: 31%;
+    transform: translateY(-50%);
+  }
+  
+  .chatbot-close-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  
+  .chatbot-close-icon:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,32 @@
+/* Progress.css */
+
+.progress-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .progress-graph {
+    margin-top: 20px;
+  }
+  
+  /* Style the line chart (graph) */
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  

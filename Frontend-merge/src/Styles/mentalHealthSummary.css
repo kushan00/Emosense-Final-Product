@@ -1,0 +1,76 @@
+/* MentalHealthSummary.css */
+
+.mental-health-summary {
+  margin: 20px;
+}
+
+.summary-table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(154, 0, 0, 0.1); 
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #c3c0c0;
+  padding: 8px;
+ 
+}
+
+.summary-table th {
+  background-color: #1d445d; /* Dark blue background for table header */
+  color: white; /* White text color for table header */
+}
+
+.summary-table tr{
+  background-color: #87CEEB;  
+  color: #000000;
+}
+
+
+.therapy-benefit {
+  width: 70%;
+  height: 60%;
+}
+
+.therapy-benefit-grid {
+  display: grid;
+
+}
+
+.therapy-box,
+.benefit-box {
+ 
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #3579a3;
+  width: 100%;
+  height: 100%;
+}
+
+.paragraph-22 {
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(202, 155, 155, 0.5);
+  font-size: 18px;
+  text-align: center;
+ 
+}
+
+.paragraph-2 {
+  color: #f9f2f2;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+ 
+}
+
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+  margin-left: 30px;
+
+}

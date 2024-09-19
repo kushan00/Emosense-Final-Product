@@ -1,0 +1,181 @@
+/* ChatBot.css */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #000000, #001f3f);
+  color: black;
+  width: 400px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.chatbot-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #076161;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+}
+
+.chatbot-title {
+  font-size: 18px;
+  font-family: "Pacifico", cursive;
+}
+
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 10px;
+  background: linear-gradient(135deg, #000000, #001f3f);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  perspective: 800px; /* Add perspective to create 3D effect */
+  font-family: "Pacifico", cursive;
+}
+
+.user-message,
+.bot-message {
+  /* font-weight: bold; */
+  color: rgb(190, 181, 181);
+  align-self: flex-end;
+  max-width: 70%;
+  word-wrap: break-word;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 5px 0;
+  background-color: #076161;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d; /* Apply 3D transformation */
+  transition: transform 0.2s ease; /* Add transition for smooth animation */
+  font-family: "Pacifico", cursive;
+}
+
+.bot-message {
+  background-color: #bdb8b8;
+  color: rgb(0, 0, 0);
+  align-self: flex-start;
+  position: relative;
+}
+
+.message-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.message-icon i {
+  color: rgb(255, 255, 255);
+}
+
+.user-message {
+  align-self: flex-end;
+  font-family: "Pacifico", cursive;
+}
+
+.bot-message:hover, .user-message:hover {
+  transform: translateZ(10px); /* Apply Z-axis translation on hover */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-suggestion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.suggestion-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.suggestion-container button {
+  padding: 8px 12px;
+  background-color: #d23a32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion-container button:hover {
+  background-color: #328dd2;
+}
+
+
+.app-container {
+  /* Add other styling for your app container here */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the container spans the full height of the viewport */
+}
+
+
+.chatbot-button-container {
+  position: abe;
+  bottom: 80;
+  right: 100;
+  transform: translate(-50%, 50%); /* Center the button relative to its own size */
+}
+
+button {
+  /* Add styling for your button here */
+  background-color: #076161;
+  color: white;
+  width: 300px;
+  font-family: cursive;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
